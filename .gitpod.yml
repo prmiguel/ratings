@@ -1,0 +1,9 @@
+---
+tasks:
+  - name: run-rating-service
+    before: |
+      nvm --version
+      node --version
+      npm --version
+      npm i
+      npm run start -- 9080
